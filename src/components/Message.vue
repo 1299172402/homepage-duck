@@ -85,7 +85,7 @@ watch(
     align-items: center;
     animation: fade 0.5s;
     .logo-img {
-      border-radius: 50%;
+      border-radius: 0%;
       width: 120px;
     }
     .name {
