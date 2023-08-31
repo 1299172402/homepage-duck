@@ -5,8 +5,9 @@
     <div class="logo">
       <img class="logo-img" :src="siteLogo" alt="logo" />
       <div class="name text-hidden">
-        <span class="bg">{{ siteUrl[0] }}</span>
-        <span class="sm">.{{ siteUrl[1] }}</span>
+        <span class="bg">yellow</span>
+        <span class="bgyellow">duck</span>
+        <!-- <span class="sm">.eu.org</span> -->
       </div>
     </div>
     <!-- 简介 -->
@@ -95,12 +96,17 @@ watch(
       font-family: "Pacifico-Regular";
 
       .bg {
-        font-size: 5rem;
+        font-size: 4rem;
+      }
+
+      .bgyellow {
+        font-size: 4rem;
+        color: #f5c300;
       }
 
       .sm {
-        margin-left: 6px;
-        font-size: 2rem;
+        margin-left: 3px;
+        font-size: 1rem;
         @media (min-width: 720px) and (max-width: 789px) {
           display: none;
         }
