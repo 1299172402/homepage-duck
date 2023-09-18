@@ -4,7 +4,7 @@
   "github": "https://github.com/1299172402/homepage-imsyy",
   "home": "https://yellowduck.eu.org",
   "private": true,
-  "version": "4.1.1",
+  "version": "4.1.2",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
